@@ -1,0 +1,28 @@
+{
+  "name": "razorpay-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss input.css -o output.css",
+    "watch": "postcss input.css -o output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spant671-ux/Razorpay-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/spant671-ux/Razorpay-Clone/issues"
+  },
+  "homepage": "https://github.com/spant671-ux/Razorpay-Clone#readme",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "postcss": "^8.5.29",
+    "postcss-cli": "^12.0.0",
+    "tailwindcss": "^4.3.3"
+  }
+}
